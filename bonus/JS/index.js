@@ -41,8 +41,8 @@ for (let i = 0; i < team.length; i++) {
     // creazione div 
     let card= document.createElement("div")
     // creazione h4 dove ci srà il nome della persona
-    let titolo = document.createElement("h4")
-    titolo.append(ruoloPersonaIesima.nome)
+    let nome = document.createElement("h4")
+    nome.append(ruoloPersonaIesima.nome)
 
     // creazione dell immagine per inserirci l'immagine
     let img = document.createElement("img")
@@ -50,10 +50,7 @@ for (let i = 0; i < team.length; i++) {
     // mettiamo i 3 ruoli dentro al div 
 
     // funzione per card
-    costruzione(img,titolo,card,ruoloPersonaIesima.role)    
-
-
-
+    costruzione(img,nome,card,ruoloPersonaIesima.role)    
  }
 
 
