@@ -35,6 +35,10 @@ const team=[
 
 // loop per selezzionare ogni oggetto
 for (let i = 0; i < team.length; i++) {
-    let ruoloPersona= team[i]
-    console.log(ruoloPersona);
+    let ruoloPersonaIesima= team[i]
+    // console.log(ruoloPersona);
+    for(let key in ruoloPersonaIesima){
+        let caratteristichePersona=ruoloPersonaIesima[key];
+        console.log(key, caratteristichePersona);
+    }
  }
