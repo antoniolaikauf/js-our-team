@@ -4,7 +4,7 @@ const team=[
     {
         "nome":"wayne barnett",
         "role":"founder & ceo",
-        "immagine":"file:///C:/boolean/js-our-team/img/wayne-barnett-founder-ceo.jpg"
+        "immagine":" file:///C:/boolean/js-our-team/img/wayne-barnett-founder-ceo.jpg"
     },
     {
         "nome":"angela caroll",
@@ -49,4 +49,6 @@ for (let i = 0; i < team.length; i++) {
 
     }
  }
+
+
 

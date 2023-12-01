@@ -4,34 +4,35 @@ const team=[
     {
         "nome":"wayne barnett",
         "role":"founder & ceo",
-        "immagine":"file:///C:/boolean/js-our-team/img/wayne-barnett-founder-ceo.jpg"
+        "immagine":"img/wayne-barnett-founder-ceo.jpg"
     },
     {
         "nome":"angela caroll",
         "role":"chief editor",
-        "immagine":"file:///C:/boolean/js-our-team/img/angela-caroll-chief-editor.jpg"
+        "immagine":"img/angela-caroll-chief-editor.jpg"
     },
     {
         "nome":"walter gordon",
         "role":"officemanager",
-        "immagine":"file:///C:/boolean/js-our-team/img/walter-gordon-office-manager.jpg"
+        "immagine":"img/walter-gordon-office-manager.jpg"
     },
     {
         "nome":"angela lopez",
         "role":"social media manager",
-        "immagine":"file:///C:/boolean/js-our-team/img/angela-lopez-social-media-manager.jpg"
+        "immagine":"img/angela-lopez-social-media-manager.jpg"
     },
     {
         "nome":"scott estrada",
         "role":"developer",
-        "immagine":"file:///C:/boolean/js-our-team/img/scott-estrada-developer.jpg"
+        "immagine":"img/scott-estrada-developer.jpg"
     },
     {
-        "nome":"barbaran ramos",
+        "nome":"barbara ramos",
         "role":"grafic designer",
-        "immagine":"file:///C:/boolean/js-our-team/img/barbara-ramos-graphic-designer.jpg"
+        "immagine":"img/barbara-ramos-graphic-designer.jpg"
     }
 ]
+
 
 // loop per selezzionare ogni oggetto
 for (let i = 0; i < team.length; i++) {
@@ -50,6 +51,8 @@ for (let i = 0; i < team.length; i++) {
 
     // funzione per card
     costruzione(img,titolo,card,ruoloPersonaIesima.role)    
+
+
 
  }
 
