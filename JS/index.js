@@ -4,32 +4,32 @@ const team=[
     {
         "nome":"wayne barnett",
         "role":"founder & ceo",
-        "immagine":" file:///C:/boolean/js-our-team/img/wayne-barnett-founder-ceo.jpg"
+        "immagine":"wayne-barnett-founder-ceo.jpg"
     },
     {
         "nome":"angela caroll",
         "role":"chief editor",
-        "immagine":"file:///C:/boolean/js-our-team/img/angela-caroll-chief-editor.jpg"
+        "immagine":"angela-caroll-chief-editor.jpg"
     },
     {
         "nome":"walter gordon",
         "role":"officemanager",
-        "immagine":"file:///C:/boolean/js-our-team/img/walter-gordon-office-manager.jpg"
+        "immagine":"walter-gordon-office-manager.jpg"
     },
     {
         "nome":"angela lopez",
         "role":"social media manager",
-        "immagine":"file:///C:/boolean/js-our-team/img/angela-lopez-social-media-manager.jpg"
+        "immagine":"angela-lopez-social-media-manager.jpg"
     },
     {
         "nome":"scott estrada",
         "role":"developer",
-        "immagine":"file:///C:/boolean/js-our-team/img/scott-estrada-developer.jpg"
+        "immagine":"scott-estrada-developer.jpg"
     },
     {
         "nome":"barbaran ramos",
         "role":"grafic designer",
-        "immagine":"file:///C:/boolean/js-our-team/img/barbara-ramos-graphic-designer.jpg"
+        "immagine":"barbara-ramos-graphic-designer.jpg"
     }
 ]
 
