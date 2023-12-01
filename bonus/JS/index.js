@@ -47,7 +47,6 @@ for (let i = 0; i < team.length; i++) {
     // creazione dell immagine per inserirci l'immagine
     let img = document.createElement("img")
     img.src=ruoloPersonaIesima.immagine
-    // mettiamo i 3 ruoli dentro al div 
 
     // funzione per card
     costruzione(img,nome,card,ruoloPersonaIesima.role)    
