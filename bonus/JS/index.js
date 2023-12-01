@@ -37,16 +37,29 @@ const team=[
 for (let i = 0; i < team.length; i++) {
     let ruoloPersonaIesima= team[i]
     // console.log(ruoloPersona);
-    // loop per prendere ogni singolo elemento degli oggetti
-    for(let key in ruoloPersonaIesima){
-        let caratteristichePersona=ruoloPersonaIesima[key];
-        // display dentro console 
-        console.log(key + "=" + caratteristichePersona);
-        // display dentro html
-        let contenitore= document.createElement("div");
-        contenitore.append(key + " = " +caratteristichePersona)
-        document.getElementById("persone-team").append(contenitore)
+    // creazione div 
+    let card= document.createElement("div")
+    // creazione h4 dove ci srà il nome della persona
+    let titolo = document.createElement("h4")
+    titolo.append(ruoloPersonaIesima.nome)
 
-    }
+    // creazione dell immagine per inserirci l'immagine
+    let img = document.createElement("img")
+    img.src=ruoloPersonaIesima.immagine
+    // mettiamo i 3 ruoli dentro al div 
+
+    // funzione per card
+    costruzione(img,titolo,card,ruoloPersonaIesima.role)    
+
  }
 
+
+
+function costruzione(imgPersnaggio,nomePersonaggio,items,ruolo) {
+    // costruzione della card
+    items.append(imgPersnaggio)
+    items.append(nomePersonaggio)
+    items.append(ruolo)
+    // mettiamo dentro la card dentro al div
+    document.getElementById("persone-team").append(items)
+}
