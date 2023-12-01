@@ -37,8 +37,15 @@ const team=[
 for (let i = 0; i < team.length; i++) {
     let ruoloPersonaIesima= team[i]
     // console.log(ruoloPersona);
+    // loop per prendere ogni singolo elemento degli oggetti
     for(let key in ruoloPersonaIesima){
         let caratteristichePersona=ruoloPersonaIesima[key];
-        console.log(key, caratteristichePersona);
+        // display dentro console 
+        console.log(key + "=" + caratteristichePersona);
+        // display dentro html
+        let contenitore= document.createElement("div");
+        contenitore.append(key + " = " +caratteristichePersona)
+        document.getElementById("persone-team").append(contenitore)
+
     }
  }
